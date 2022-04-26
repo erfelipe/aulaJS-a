@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+}
+
+#menu-horizontal {
+  display: fixed;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#menu-horizontal ul {
+  list-style: none; /*tira os marcadores*/
+  padding: 0;
+  background-color: black;
+  text-align: right; /*alinhar os elementos na direita*/
+}
+
+#menu-horizontal ul li {
+  display: inline-block; /*ficar em uma linha (e nao colunas)*/
+}
+
+#menu-horizontal ul li a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  text-decoration: none; /*tira o sublinhado*/
+  padding: 15px;
+  display: inline-block; /*cria um bloco com o padding informado */
+  transition: background 1s; /*efeito de fade combinado com o hover*/
+}
+
+#menu-horizontal ul li a:hover {
+  background-color: gray;
+  opacity: 0.5; /*opcional */
+}
+
+p {
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+
+#parte1 {
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#parte2 {
+  background-color: beige;
+  height: calc(100vh - 50px);
+} 

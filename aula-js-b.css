@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+p {
+    background-color: #5f9ea0;
+    width: 50%;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-shadow: 3px 2px 7px #fff;
+
+}
+
+p:hover {
+    background-color: #f0ff0f;
+    }
+    
+
+html {
+    font-size: 30px;
+}
